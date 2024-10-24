@@ -3,7 +3,6 @@
 var express = require('express');
 var router = express.Router();
 
-// req and res need to be in this order...
 router.get('/', function(req, res) {
     res.render('addBooks');
   });
