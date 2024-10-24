@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.card {
+  min-height: 10rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-details {
+  flex: 1;
+}
+
+.card-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.add-book {
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  /* min-height: 10rem; */
+  line-height: 10rem;
+}
+
+.book-list {
+  margin: 20px 0px;
+  gap: 20px;
+}
+
+.form-control {
+  width: 50%;
+}
+
+a {
+  color: #00B7FF;
+}
